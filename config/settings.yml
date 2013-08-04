@@ -19,7 +19,7 @@ product_description: "Put an end to NSA spying"
 
 # An image showcasing your product -- it'll show up when you pin your product
 # It should be in app/assets/images
-product_image_path: "my-product-image.png"
+product_image_path: "lobbyist.png"
 
 # The message on the preorder page, Lockitron's is ""
 value_proposition: "Force Congress to Stop NSA Spying"
@@ -53,7 +53,7 @@ payment_description: "Your contribution will go towards hiring expert lobbyists 
 # Amazon limits how much we can charge people with their Multi-Use tokens.
 # You probably should add some leeway to account for international shipping
 # this value will be added to the price to create a charge limit
-charge_limit: 25.00
+charge_limit: 2.00
 
 # Stats settings
 
