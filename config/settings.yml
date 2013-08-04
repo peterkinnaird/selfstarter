@@ -85,7 +85,7 @@ price_human: "Send a dude in a suit to D.C."
 dont_give_them_a_reason_to_say_no: "Don't stand idly by while privacy continues to erode. Speak the language Washington Love to Hear."
 
 # Social Stuff
-facebook_app_id: "1234567890"
+facebook_app_id: "437400553042160"
 # Tweets are prefixed with "I'm #{Settings.primary_stat} number X for #{Settings.product_name}"
 # Maybe mention something about your product vision -- e.g. "to replace keys with my phone"
 tweet_text: "I'm sending a dude in a suit to D.C. to force Congress to stop #NSA spying"
