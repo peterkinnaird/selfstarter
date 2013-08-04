@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130107010733) do
+ActiveRecord::Schema.define(:version => 20130804211112) do
 
   create_table "orders", :id => false, :force => true do |t|
     t.string   "token"
@@ -52,6 +52,7 @@ ActiveRecord::Schema.define(:version => 20130107010733) do
     t.string   "email"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "zip"
   end
 
 end

@@ -4,7 +4,11 @@
       <ol>
         <% PaymentOption.all.each_with_index do |p, index| %>
           <li>
+          <% if index == 1 %>
+            <%= radio_button_tag "payment_option", p.id, true, class: 'payment_radio', disabled: sold_out(p) %>
+          <% else %>
             <%= radio_button_tag "payment_option", p.id, false, class: 'payment_radio', disabled: sold_out(p) %>
+          <% end %>
             <%= label_tag("payment_option_#{index}", p.amount_display) %>
             <div class="shipping">
               <% if sold_out p %>
