@@ -15,7 +15,7 @@ project_goal: 1000
 product_name: "WeLobby"
 
 # This will be used in sentences like Hooray You've just reserved product_description
-product_description: "put an end to NSA spying"
+product_description: "Put an end to NSA spying"
 
 # An image showcasing your product -- it'll show up when you pin your product
 # It should be in app/assets/images
@@ -82,7 +82,7 @@ call_to_action: "Money Talks"
 price_human: "Send a dude in a suit to D.C."
 
 # The paragraph below the price. You'd probably say something about how you're not going to charge them before it ships (so it's less risky).
-dont_give_them_a_reason_to_say_no: "Dont' stand idly by while privacy continues to erode. Speak the language Washington Love to Hear."
+dont_give_them_a_reason_to_say_no: "Don't stand idly by while privacy continues to erode. Speak the language Washington Love to Hear."
 
 # Social Stuff
 facebook_app_id: "1234567890"
