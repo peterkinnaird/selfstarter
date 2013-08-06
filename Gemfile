@@ -4,6 +4,10 @@ ruby '2.0.0'
 
 gem 'rails', '3.2.13'
 gem 'json', '~> 1.7.7'
+gem 'omniauth-twitter'
+gem 'twitter'
+gem 'annotate'
+
 
 group :development do
   gem 'sqlite3'
@@ -30,7 +34,7 @@ end
 
 # jQuery
 gem 'jquery-rails'
-
+gem "jquery-ui-rails"
 # Kickstarter's awesome Amazon Flexible Payments gem
 gem 'amazon_flex_pay'
 

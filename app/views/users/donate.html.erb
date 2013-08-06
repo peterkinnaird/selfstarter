@@ -1,0 +1,15 @@
+<div class="gray_background" id='share_container'>
+  <div class="wrapper center" id="congrats">
+    <h2>
+      Follow Our Twitter Account      
+    </h2>
+    <p>Congratulations, you're <%= Settings.primary_stat_verb %> number <span id="backer_number"><%= number_with_delimiter Order.backers, :delimiter => "," %></span>,  in supporting <%= Settings.product_name %>. Share the great news!</p>
+    <div id="twitter">
+     <h2>Help Out Even More</h2>
+        <a href="/users/follow" class="blue_button reserve">Follow This Project</a>
+     </div>
+  </div>
+</div>
+
+<%= render 'preorder/share/twitter_js' %>
+<%= render 'preorder/share/facebook_js' %>

@@ -6,4 +6,7 @@ Selfstarter::Application.routes.draw do
   match '/preorder/ipn'           => 'preorder#ipn', :via => :post
   match '/preorder/prefill'       => 'preorder#prefill'
   match '/preorder/postfill'      => 'preorder#postfill'
+  get '/auth/twitter/callback', :to => 'users#create'
+  get '/users/follow'
+  get '/users/followers'
 end
