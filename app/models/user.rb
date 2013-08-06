@@ -41,9 +41,12 @@ class User < ActiveRecord::Base
 
   def self.total_followers
   	c = User.all.count
-  	if users = User.find_all_by_tweets_authorized(1)
+  	if users = User.all
   		users.each do |u|
-  			c += u.t_follow_count
+  			c++
+  			if u.tweets_authorized > 0
+  				c += u.t_follow_count
+  			end
   		end
   	end
   	return c
