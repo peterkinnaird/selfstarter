@@ -44,7 +44,8 @@ class User < ActiveRecord::Base
   	if users = User.all
   		users.each do |u|
   			c++
-  			if u.tweets_authorized > 0
+
+  			if u.tweets_authorized > 0 != nil
   				c += u.t_follow_count
   			end
   		end
