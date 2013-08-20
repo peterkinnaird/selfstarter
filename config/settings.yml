@@ -15,7 +15,7 @@ project_goal: 1000
 product_name: "WeLobby"
 
 # This will be used in sentences like Hooray You've just reserved product_description
-product_description: "Put an end to NSA spying"
+product_description: "Defund the NSA"
 
 # An image showcasing your product -- it'll show up when you pin your product
 # It should be in app/assets/images
@@ -66,7 +66,7 @@ primary_stat_verb: 'privateer'
 middle_reserve_text: "Kick in cash"
 
 # When the project should end
-expiration_date: <%= DateTime.now + 7 %>
+expiration_date: <%= DateTime.now + 5 %>
 
 # Text to show inside the progress bar, when the goal reaches/exceeds 100%
 progress_text: "Lobbyists hired"
